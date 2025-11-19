@@ -42,7 +42,7 @@ O Smart Buddy é uma solução **serverless** que combina:
 ```
 Timer (9h) → Function → Agent → AI Search → SQL Database
                 ↓
-          Logic App → Twilio → WhatsApp
+          Logic App → Twilio → SMS
 ```
 
 ## 🔧 Componentes Detalhados
@@ -218,7 +218,7 @@ Timer (9h) → Function → Agent → AI Search → SQL Database
 - Function monta mensagem personalizada para cada aluno
 - Envia HTTP POST para Logic App
 - Logic App adiciona +55 e envia via Twilio
-- WhatsApp entregue ao aluno
+- SMS entregue ao aluno
 
 **4. Relatório Final (06:02)**
 ```json
@@ -278,7 +278,7 @@ Timer (9h) → Function → Agent → AI Search → SQL Database
 - ✅ Azure Function (func-gym-engagement)
 - ✅ AI Search (srch-gym-buddy)
 - ✅ SQL Database (db-smartgym)
-- ✅ Logic App (logic-app-twilio-whatsapp)
+- ✅ Logic App (logic-app-twilio-sms)
 - ✅ AI Services (laura-mhvbzzym-swedencentral)
 - ✅ Storage Account (stgymengagement)
 - ✅ Application Insights

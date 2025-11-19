@@ -5,7 +5,7 @@
 [![Azure Functions](https://img.shields.io/badge/Azure-Functions-0062AD?style=for-the-badge&logo=azure-functions&logoColor=white)](https://azure.microsoft.com/services/functions/)
 [![GPT-4o Mini](https://img.shields.io/badge/GPT--4o-Mini-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
 
-Sistema automatizado de engajamento de alunos usando **Azure AI Agent**, que identifica aniversariantes e padrões de frequência para enviar mensagens motivacionais personalizadas via WhatsApp.
+Sistema automatizado de engajamento de alunos usando **Azure AI Agent**, que identifica aniversariantes e padrões de frequência para enviar mensagens motivacionais personalizadas via SMS.
 
 ---
 
@@ -61,7 +61,7 @@ Academias enfrentam:
 | **Agent IA** | Azure AI Foundry (GPT-4o Mini) | Busca inteligente em linguagem natural |
 | **Busca** | Azure AI Search | Índice de dados + filtros OData |
 | **Database** | Azure SQL Database | Armazenamento de alunos e check-ins |
-| **SMS** | Logic App + Twilio | Envio de mensagens WhatsApp |
+| **SMS** | Logic App + Twilio | Envio de mensagens SMS |
 
 ---
 
@@ -119,7 +119,7 @@ Tool do Agent para busca de dados:
 **📦 Código fonte:** [github.com/Lauraellen/func-gym-search](https://github.com/Lauraellen/func-gym-search)
 
 ### 📱 [Logic App + Twilio](docs/LOGIC-APP.md)
-Envio de mensagens WhatsApp:
+Envio de mensagens SMS:
 - Workflow configuration
 - Twilio integration
 - Phone format (+55)

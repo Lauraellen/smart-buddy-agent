@@ -118,7 +118,7 @@ POST https://prod-03.swedencentral.logic.azure.com:443/workflows/0f44adb3bd51484
 | **Account SID** | `AC******************` | Twilio Console → Account Info |
 | **Auth Token** | `******************` | Twilio Console → Account Info |
 | **From Number** | `+1234567890` | Twilio Console → Phone Numbers |
-| **Messaging Service SID** | `MG******************` | (Opcional) Para WhatsApp |
+| **Messaging Service SID** | `MG******************` | (Opcional) Para SMS |
 
 **Configuração no Logic App:**
 

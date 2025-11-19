@@ -47,8 +47,8 @@ Busca alunos no banco de dados usando Azure AI Search com suporte a filtros ODat
 }
 ```
 
-### 2. smartbuddy_Tool (Enviar WhatsApp)
-Envia mensagens via WhatsApp.
+### 2. smartbuddy_Tool (Enviar SMS)
+Envia mensagens via SMS.
 
 **Parâmetros:**
 - `telefone` (string) - Número do aluno
@@ -316,7 +316,7 @@ Exemplo de resposta:
 1. **SEMPRE use openiaSmartBuddy** para buscar dados de alunos
 2. **Use `filter`** para campos booleanos/numéricos (ativo, checkins, idade)
 3. **Use `search`** para texto (nome, objetivo, plano)
-4. **Max 280 caracteres** por mensagem WhatsApp
+4. **Max 280 caracteres** por mensagem SMS
 5. **Personalize** com dados reais (nome, idade, objetivo, check-ins)
 6. **Seja motivador** e empático
 7. **Retorne resumos** estruturados

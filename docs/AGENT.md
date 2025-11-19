@@ -69,7 +69,7 @@ O **Azure AI Agent** é um assistente inteligente baseado em **GPT-4o Mini** que
 
 ✅ **Ferramentas disponíveis:**
 - `openiaSmartBuddy` - Busca alunos no Azure AI Search com filtros OData
-- `smartbuddy_Tool` - Envia mensagens WhatsApp (máx 280 caracteres)
+- `smartbuddy_Tool` - Envia mensagens SMS (máx 280 caracteres)
 
 ✅ **Campos de busca:**
 - **SEARCHABLE** (use `search`): nome, email, telefone, objetivo, plano
@@ -104,7 +104,7 @@ O **Azure AI Agent** é um assistente inteligente baseado em **GPT-4o Mini** que
 | Tool | Componente Azure | Função |
 |------|------------------|--------|
 | `openiaSmartBuddy` | **[Azure AI Search →](SEARCH.md)** | Busca alunos com filtros OData |
-| `smartbuddy_Tool` | **[Logic App + Twilio →](LOGIC-APP.md)** | Envia mensagens WhatsApp (máx 280 chars) |
+| `smartbuddy_Tool` | **[Logic App + Twilio →](LOGIC-APP.md)** | Envia mensagens SMS (máx 280 chars) |
 
 **Como funciona:**
 
@@ -235,7 +235,7 @@ categoria_frequencia eq 'Dedicado' and status eq 'Ativo'
 
 ## 📱 Resultado Real - Mensagem Enviada
 
-### Mensagem de Aniversário (WhatsApp)
+### Mensagem de Aniversário (SMS)
 
 ![SMS Aniversário](/docs/prints/01-agent/04c-sms-aniversario.png)
 
@@ -244,14 +244,14 @@ categoria_frequencia eq 'Dedicado' and status eq 'Ativo'
 - ✅ Nome do aluno inserido corretamente
 - ✅ Formatação com emojis preservada
 - ✅ Texto motivacional completo
-- ✅ Recebida no WhatsApp do aluno
+- ✅ Recebida no SMS do aluno
 
 **Prova de que o sistema funciona end-to-end:**
 1. Agent busca aniversariantes → `openiaSmartBuddy`
 2. Dados retornados do AI Search
 3. Mensagem personalizada gerada
 4. Enviada via Logic App + Twilio
-5. **Recebida no WhatsApp real** ✅
+5. **Recebida no SMS real** ✅
 
 ---
 
@@ -292,7 +292,7 @@ categoria_frequencia eq 'Dedicado' and status eq 'Ativo'
 
 - **Nome:** `smartbuddy_Tool`
 - **Tipo:** Logic App (HTTP Trigger)
-- **Função:** Envia mensagens WhatsApp (máx 280 caracteres)
+- **Função:** Envia mensagens SMS (máx 280 caracteres)
 - **Endpoint:** Logic App URL
 
 **📄 [Ver documentação completa →](LOGIC-APP.md)**

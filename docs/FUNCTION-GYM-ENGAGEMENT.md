@@ -120,8 +120,9 @@ SmartBuddyFunction/
 **⚠️ ATENÇÃO:** Credenciais foram ocultadas
 
 **Variáveis configuradas:**
-- `AZURE_OPENAI_ENDPOINT`
-- `AZURE_OPENAI_API_KEY`
+- `PROJECT_ENDPOINT`
+- `AGENT_API_KEY`
 - `AGENT_ID`
-- `LOGIC_APP_URL` 
+- `LOGIC_APP_TWILIO_URL`
+- `AGENT_ENDPOINT`
 ---

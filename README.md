@@ -7,8 +7,6 @@
 
 Sistema automatizado de engajamento de alunos usando **Azure AI Agent**, que identifica aniversariantes e padrões de frequência para enviar mensagens motivacionais personalizadas via WhatsApp.
 
-> 📦 **Código fonte:** [github.com/Lauraellen/gym-engagement-function](https://github.com/Lauraellen/gym-engagement-function)
-
 ---
 
 ## 🎯 Visão Geral
@@ -18,7 +16,7 @@ Sistema automatizado de engajamento de alunos usando **Azure AI Agent**, que ide
 ✅ **Identifica** automaticamente aniversariantes do dia  
 ✅ **Detecta** alunos com baixa frequência (precisam motivação)  
 ✅ **Reconhece** alunos dedicados (alta frequência)  
-✅ **Envia** mensagens personalizadas via WhatsApp  
+✅ **Envia** mensagens personalizadas via SMS  
 ✅ **Executa** automaticamente todos os dias às 6h  
 
 ### Problema Resolvido
@@ -47,7 +45,7 @@ Academias enfrentam:
 ![SMS](docs/prints/sms.png)
 *Resultado real: mensagem de aniversário recebida no aplicativo de mensagens do celular*
 
-> 💡 **Como funciona na prática:** A **Azure Function gym-engagement-function** executa automaticamente todos os dias às 6h, fazendo exatamente o que você vê no GIF acima: envia perguntas ao Agent ("busque aniversariantes", "busque baixa frequência"), recebe os dados em JSON e dispara mensagens via WhatsApp para cada aluno.
+> 💡 **Como funciona na prática:** A **Azure Function gym-engagement-function** executa automaticamente todos os dias às 6h, fazendo exatamente o que você vê no GIF acima: envia perguntas ao Agent ("busque aniversariantes", "busque baixa frequência"), recebe os dados em JSON e dispara mensagens via SMS para cada aluno.
 
 ---
 
